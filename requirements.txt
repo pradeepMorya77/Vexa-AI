@@ -2,10 +2,8 @@ flask
 flask-cors
 gunicorn
 groq
-mysql-connector-python
-werkzeug
-sentence-transformers
-faiss-cpu
+python-dotenv
+psycopg2-binary
 PyPDF2
 python-docx
-numpy
+werkzeug

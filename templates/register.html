@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Register - DeepKul-AI</title>
+  <title>Register - Vexa-AI</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 </head>
 <body>
   <main class="card">
-    <div class="brand"><div class="logo">DK</div><div><h1>DeepKul-AI</h1><p class="muted">Create your account</p></div></div>
+    <div class="brand"><div class="logo">V</div><div><h1>Vexa-AI</h1><p class="muted">Create your account</p></div></div>
     {% with messages = get_flashed_messages(with_categories=true) %}{% if messages %}{% for category, message in messages %}<div class="msg">{{ message }}</div>{% endfor %}{% endif %}{% endwith %}
     <form method="POST" action="/register">
       <div class="field"><label>Username</label><input name="username" required autocomplete="username"></div>
