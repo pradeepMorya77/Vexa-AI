@@ -1029,6 +1029,18 @@ html, body {
     margin-top: 12px;
 }
 
+.input-hint a {
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: var(--transition-fast);
+}
+
+.input-hint a:hover {
+    text-decoration: underline;
+    color: aqua;
+    transition: var(--transition-fast);
+}
+
 /* ========================================
    Modal
    ======================================== */
