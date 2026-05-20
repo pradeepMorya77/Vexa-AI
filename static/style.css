@@ -1240,9 +1240,10 @@ html, body {
         position: fixed;
         left: 0;
         top: 0;
-        height: 100vh;
-        z-index: 100;
+        bottom: 0;
         transform: translateX(-100%);
+        width: 280px;
+        z-index: 101;
     }
     
     .sidebar.open {
